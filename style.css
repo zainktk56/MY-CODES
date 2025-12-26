@@ -1,0 +1,550 @@
+ @font-face {
+     font-family: zain;
+     src: url(./Poppins/Poppins-Regular.ttf);
+ }
+
+ @font-face {
+     font-family: umair;
+     src: url(./Poppins/Poppins-Bold.ttf);
+ }
+
+ @font-face {
+     font-family: op;
+     src: url(./PlayfairDisplay-VariableFont_wght.ttf);
+ }
+
+ @font-face {
+     font-family: hmm;
+     src: url(./Poppins/Poppins-Light.ttf);
+ }
+
+ /* NAV BAR CSS ONLY */
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .main {
+     display: flex;
+     background-color: black;
+     color: white;
+     /* position: sticky;
+    top: 0; */
+     background-color: black;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     font-family: zain;
+     margin-left: 30px;
+     margin-right: 40px;
+     font-size: small;
+ }
+
+ #img1 {
+     width: 200px;
+ }
+
+ .btn1,
+ .btn2 {
+     display: flex;
+     font-family: zain;
+     align-items: center;
+     /* justify-content: center; */
+ }
+
+ .btn1 {
+     border: 1px solid white;
+     background-color: black;
+     color: white;
+     padding: 10px;
+     border-radius: 25px;
+ }
+
+ .btn2 {
+     background-color: red;
+     padding: 15px 30px;
+     border-radius: 70px;
+     border: 1px solid red;
+     color: white;
+ }
+
+ .main2>img {
+     width: 50px;
+ }
+
+ .homepagebtn {
+     margin-left: 380px;
+ }
+
+ .x1 {
+     background-color: black;
+ }
+
+ .homepagebtn,
+ .abtbtn,
+ .pbgbtn {
+     cursor: pointer;
+     margin-top: 10px;
+ }
+
+ .delivery {
+     background-color: black;
+     color: white;
+     text-align: center;
+     height: 500px;
+ }
+
+ .text {
+     font-family: zain;
+     background-color: black;
+     /* margin-top: 50px; */
+ }
+
+ #saltnp {
+     width: 300px;
+ }
+
+ #pclor {
+     color: gray;
+ }
+
+ #rstr {
+     width: 200px;
+     border-radius: 10px;
+ }
+
+ .flex {
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 30px;
+ }
+
+ .btnordr {
+     padding: 10px 40px;
+     border-radius: 30px;
+     background-color: black;
+     color: white;
+     border: 1px solid white;
+     font-family: zain;
+     margin-top: 20px;
+ }
+
+ .franchise {
+     background-color: rgb(11, 11, 11);
+     color: white;
+ }
+
+ .slt {
+     margin-left: 500px;
+ }
+
+ #bgrmv {
+     width: 350px;
+ }
+
+ .cntr {
+     text-align: center;
+     margin-left: 130px;
+     font-family: op;
+     font-size: xx-large;
+ }
+
+ .each {
+     font-family: zain;
+     color: gray;
+     text-align: center;
+     margin-left: 130px;
+ }
+
+ #smallbgrmv {
+     width: 200px;
+     margin-top: 15px;
+ }
+
+ .margin {
+     font-family: hmm;
+ }
+
+ .get {
+     padding: 10px 30px;
+     border-radius: 25px;
+     background-color: black;
+     color: white;
+     border: 1px solid white;
+     font-family: op;
+ }
+
+ #rest1 {
+     width: 500px;
+ }
+
+ .photorest {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ #gry {
+     font-family: zain;
+     color: gray;
+ }
+
+ .red {
+     color: red;
+ }
+
+ .photorest1 {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .photorest2 {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .mainexpress {
+     background-color: rgb(11, 11, 11);
+ }
+
+ #expressfran {
+     margin-right: 50px;
+     color: white;
+ }
+
+ #bgmrv {
+     width: 300px;
+     margin-left: 25px;
+ }
+
+ .space {
+     background-color: black;
+ }
+
+ #place {
+     width: 350px;
+ }
+
+ #smallsltnp {
+     width: 150px;
+     margin-bottom: 5px;
+ }
+
+ #sargdiv {
+     display: flex;
+     align-items: center;
+     color: white;
+     font-family: zain;
+     margin-left: 80px;
+ }
+
+ .mainexp1 {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .exp1,
+ .exp2,
+ .exp3 {
+     width: 400px;
+     text-align: center;
+ }
+
+ .exp4 {
+     text-align: center;
+ }
+
+ #sargdivs {
+     margin-left: 500px;
+     font-family: zain;
+     color: white;
+     display: flex;
+     align-items: center;
+ }
+
+ .bgcolorbox {
+     background-color: rgb(22, 22, 22);
+ }
+
+ #smalllogo {
+     width: 200px;
+     margin-left: 540px;
+ }
+
+ #opfont {
+     margin-left: 500px;
+     color: white;
+     font-family: op;
+ }
+
+ #picvillage {
+     width: 500px;
+ }
+
+ #rmvbg {
+     width: 200px;
+ }
+
+ .cardss {
+     display: flex;
+ }
+
+ #font {
+     color: white;
+     font-family: zain;
+ }
+
+ #green {
+     padding: 10px 20px;
+     border-radius: 20px;
+     background-color: green;
+     color: white;
+     font-family: op;
+     border: 1px solid green;
+ }
+
+ .cards {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .bgcolor {
+     background-color: black;
+ }
+
+ #pkk {
+     width: 300px;
+     margin-top: 50px;
+     margin-left: 520px;
+ }
+
+ .fontss {
+     display: flex;
+ }
+
+ #soon {
+     color: white;
+     font-size: x-large;
+     margin-top: 15px;
+ }
+
+ #opfont {
+     margin-right: 10px;
+
+ }
+
+ #photo {
+     width: 300px;
+ }
+
+ .soons,
+ .soon {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ #bgcolorfoot {
+     background-color: rgb(22, 22, 22);
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .mainpara {
+     display: flex;
+ }
+
+ .para1 {
+     margin-right: 10px;
+ }
+
+ #stefonts {
+     color: white;
+     font-family: op;
+ }
+
+ .homeaddress {
+     font-family: umair;
+     color: white;
+ }
+
+ #icon {
+     width: 50px;
+     margin-left: 5px;
+ }
+
+ .icon {
+     display: flex;
+ }
+
+ #download {
+     width: 150px;
+ }
+
+ .foot1 {
+     width: 350px;
+ }
+
+ .Black {
+     background-color: black;
+ }
+
+ .last {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .last1 {
+     margin-right: 800px;
+ }
+
+ .foot1,
+ .foot2,
+ .foot3,
+ .foot4 {
+     margin-top: 50px;
+     margin: 50px;
+ }
+
+ #top {
+     margin-top: 30px;
+ }
+ /* =========================
+   RESPONSIVE FIXES (ADD ONLY)
+   ========================= */
+
+/* ---------- TABLET & MOBILE ---------- */
+@media screen and (max-width: 900px) {
+
+    /* Delivery section */
+    .flex {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .delivery {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    /* Franchise images & text */
+    .photorest,
+    .photorest1,
+    .photorest2 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #rest1 {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .slt,
+    .cntr,
+    .each {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #bgrmv {
+        width: 250px;
+        margin: auto;
+        display: block;
+    }
+
+    /* Express cards */
+    .mainexp1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .exp1,
+    .exp2,
+    .exp3 {
+        width: 90%;
+    }
+
+    #place {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    #sargdiv,
+    #sargdivs {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    /* Village section */
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #picvillage {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    #smalllogo,
+    #opfont {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Opening soon images */
+    .soons,
+    .soon {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #photo {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    #pkk {
+        margin-left: 0;
+        display: block;
+        margin: auto;
+    }
+
+    /* Footer */
+    #bgcolorfoot {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foot1,
+    .foot2,
+    .foot3,
+    .foot4 {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .icon {
+        justify-content: center;
+    }
+
+    /* Last bar */
+    .last {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .last1 {
+        margin-right: 0;
+    }
+}
